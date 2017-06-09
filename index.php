@@ -31,20 +31,29 @@
                 <h4>Kontakt</h4>
             </div>
         </div>
-        <div class="row"><!-- Media społecznościowe -->
-            <div class="three columns mspol">
-                <i class="icon-facebook"></i>
-            </div>
-            <div class="three columns mspol">
-                <i class="icon-github-text"></i>
-            </div>
-            <div class="three columns mspol">
-                <i class="icon-instagram"></i>
-            </div>
-            <div class="three columns mspol">
-                <i class="icon-youtube"></i>
-            </div>
+        <div class="row" style="text-align: center;"><!-- Media społecznościowe -->
+            <a href="https://www.facebook.com/kamil.langer.official" class="three columns">
+                <div class="mspol" style="background-color: #003399;">
+                    <i class="icon-facebook"></i>
+                </div>
+            </a>
+            <a href="https://github.com/camzu1998" class="three columns">
+                <div class="mspol" style="background-color: #262626;">
+                    <i class="icon-github-text"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/dynamic_snickers/" class="three columns">
+                <div class="mspol" style="background-color: #990033;">
+                    <i class="icon-instagram"></i>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCDarRx0y7_YALAp3f-GVNoA" class="three columns">
+                <div class="mspol" style="background-color: #FF0033;">
+                    <i class="icon-youtube"></i>
+                </div>
+            </a>
         </div>
     </div>
+    <footer id="footer">Wykonał: Kamil Langer &copy; kamillanger4@gmail.com</footer>
 </body>
 </html>

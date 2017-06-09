@@ -1,5 +1,12 @@
 body{
     background: #0E0E0E;
+    margin:0;
+	padding:0;
+	height: 100%;
+}
+.container{
+    min-height: calc(100vh - 90px);
+	position: relative !important;
 }
 .header{
     margin-top: 3%;
@@ -12,6 +19,26 @@ body{
     text-align: center;
     margin-top: 2%;
 }
+.mspol{
+    height: 35%;
+    margin-top: 2%;
+}
 i{
     font-size: 4rem;
+}
+footer{
+    text-align: center;
+}
+#footer{
+	position: relative;
+    height: 60px;
+    clear: both;
+}
+a{
+    color: #F6F6F6;
+    text-decoration: none;
+    margin-top: 2%;
+}
+a:hover{
+    color: #F6F6F6;
 }
