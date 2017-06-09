@@ -11,7 +11,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="row"></div>
+        <div class="row">
+            <div class="header"><h2>Kamil Langer</h2></div>
+        </div>
     </div>
 </body>
 </html>
