@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -6,11 +7,14 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/snackbar.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/snackbar.css">
 </head>
 <body>
     <div class="container">
@@ -61,5 +65,12 @@
         </div>
     </div>
     <footer id="footer">Wykonał: Kamil Langer &copy; kamillanger4@gmail.com</footer>
+    <div id="snackbar"><span id="tekst"></span></div>
+    <?php
+    if(isset($_SESSION['wyslano'])){
+        ?><script>openSnackbar();</script><?php
+    }
+    unset($_SESSION['wyslano']);
+    ?>
 </body>
 </html>
