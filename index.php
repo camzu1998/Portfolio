@@ -15,21 +15,27 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="header"><h2>Kamil Langer</h2></div>
+            <div class="header"><a href="index.php"><h2>Kamil Langer</h2><h8>Junior web developer.</h8></a></div>
         </div>
         <div class="row">
-            <div class="four columns wtile"><!-- O mnie -->
-                <i class="icon-user"></i>
-                <h4>O mnie</h4>
-            </div>
-            <div class="four columns wtile"><!-- Moje projekty -->
-                <i class="icon-th-list"></i>
-                <h4>Moje projekty</h4>
-            </div>
-            <div class="four columns wtile"><!-- Kontakt -->
-                <i class="icon-chat"></i>
-                <h4>Kontakt</h4>
-            </div>
+            <a href="omnie.php" class="four columns">
+                <div class="wtile"><!-- O mnie -->
+                    <i class="icon-user"></i>
+                    <h4>O mnie</h4>
+                </div>
+            </a>
+            <a href="projekty.php" class="four columns">
+                <div class="wtile"><!-- Moje projekty -->
+                    <i class="icon-th-list"></i>
+                    <h4>Moje projekty</h4>
+                </div>
+            </a>
+            <a href="kontakt.php" class="four columns">
+                <div class="wtile"><!-- Kontakt -->
+                    <i class="icon-chat"></i>
+                    <h4>Kontakt</h4>
+                </div>
+            </a>
         </div>
         <div class="row" style="text-align: center;"><!-- Media społecznościowe -->
             <a href="https://www.facebook.com/kamil.langer.official" class="three columns">
