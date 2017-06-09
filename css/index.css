@@ -1,0 +1,17 @@
+body{
+    background: #0E0E0E;
+}
+.header{
+    margin-top: 3%;
+    text-align: center;
+}
+.wtile{
+    min-height: 20%;
+    background: #F6F6F6;
+    color: #222;
+    text-align: center;
+    margin-top: 2%;
+}
+i{
+    font-size: 4rem;
+}
