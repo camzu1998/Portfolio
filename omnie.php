@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <title>Portfolio Kamil Langer</title>
     <meta name="description" content="Portfolio młodego web developera Kamila Langer.">
