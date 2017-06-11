@@ -17,13 +17,15 @@
         <div class="row">
             <div class="header"><a href="index.php"><h2>Kamil Langer</h2><h8>Junior web developer.</h8></a></div>
         </div>
+        <p>Nr tel: 799777675</p>
+        <p>Adres: Kłodawa Bohaterów Września 9/14</p>
         <div class="row" style="text-align: center;">
-            <form action="mail.php" method="post" enctype="text/plain">
+            <form action="mail.php" method="post">
                 <div class="row">
-                    <div class="six columns"><input type="text" placeholder="Twoje imię i nazwisko" name="name" class="u-full-width"></div>
-                    <div class="six columns"><input type="email" placeholder="Twój email" name="email" class="u-full-width"></div>
+                    <div class="six columns"><input type="text" placeholder="Twoje imię i nazwisko" name="name" class="u-full-width" required></div>
+                    <div class="six columns"><input type="email" placeholder="Twój email" name="email" class="u-full-width" required></div>
                 </div>
-                <input type="text" placeholder="Wiadomość" name="comment" class="u-full-width">
+                <input type="text" placeholder="Wiadomość" name="comment" class="u-full-width" required>
                 <input type="submit" value="Wyślij">
             </form>
         </div>

@@ -26,6 +26,7 @@
                 <tr><td>Symulator programisty</td><td>Przerwany</td><td>Brak grafik</td><td>Unity, C#</td><td>Brak</td></tr>
                 <tr><td>Biblioteka ZSP</td><td>Zakończony</td><td></td><td>HTML, CSS, JS, PHP</td><td><a href="http://bibliotekazsp.zspklodawa.org/" target="_blank">Link do strony biblioteki</a></td></tr>
                 <tr><td>Strona radia szkolnego MIX</td><td>Zakończony</td><td></td><td>HTML, CSS, JS, PHP</td><td><a href="http://radio.zspklodawa.org/" target="_blank">Link do strony radia</a></td></tr>
+                <tr><td>Mechsim 2.0</td><td>W trakcie prac</td><td></td><td>HTML, CSS, JS, PHP</td><td><a href="https://github.com/camzu1998/mechsim" target="_blank">Git</a> </td></tr>
             </tbody>
         </table>
     </div>

@@ -1,8 +1,7 @@
 <?php
 session_start();
-$text = $_POST['comment'];
-$mail = $_POST['mail'];
-$name = $_POST['name'];
+$text = $_POST['name'].": ".$_POST['comment'];
+$mail = $_POST['email'];
 $mymail = 'kamillanger4@gmail.com';
 $subject = 'Portfolio';
 $header = 'From: '.$mail."";
